@@ -10,6 +10,3 @@ class Rectangle:
 
     def afficher_info(self):
         print(self.calcul_air())
-
-a = Rectangle(15, 10)
-a.afficher_info()
