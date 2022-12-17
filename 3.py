@@ -1,18 +1,18 @@
-from math import pi
+import random
+est_vivant = true
 
-class Cercle:
-    def __init__(self, rayon):
-        self.rayon = rayon
-
-    def calcul_aire(self):
-        return pi * self.rayon**2
-
-    def afficher_info(self):
-        print(self.calcul_aire())
-        print(self.calcul_circonference())
-
-    def calcul_circonference(self):
-        return 2*pi*self.rayon
-
-a = Cercle(5)
-a.afficher_info()
+#DOMAGE A DEFINIR
+domage = 5
+class Hero()
+    def __init__(self):
+        self.pdv = random.randint(1, 10) + random.randint(1, 10)
+        self.force_attaque = random.randint(1, 6)
+        self.force_defence = random.randint(1, 6)
+        self.name = 'Louis'
+    def attack(self):
+        return random.randint(1, 6) + self.force_attaque
+    def degats_recu(self):
+        return self.pdv -= domage - self.force_defence
+    def est_vivant(self):
+        if self.pdv <= 0
+            return est_vivant = false
