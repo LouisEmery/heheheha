@@ -7,6 +7,3 @@ class StringFOO:
 
     def print_string(self):
         print(self.name.upper())
-
-foo = StringFOO()
-foo.print_string()
